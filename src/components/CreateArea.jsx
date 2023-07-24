@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 
-function CreateArea() {
+function CreateArea(props) {
   return (
     <div>
       <form>
