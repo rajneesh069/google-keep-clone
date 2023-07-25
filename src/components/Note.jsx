@@ -1,10 +1,10 @@
 import React from "react";
 
 function Note(props) {
-  function handleClick(event){
-    props.deleteNote(props.id, event);
+  function handleClick() {
+    props.onDelete(props.id);
   }
-  console.log("Props in Note.jsx",props);
+
   return (
     <div className="note">
       <h1>{props.title}</h1>
